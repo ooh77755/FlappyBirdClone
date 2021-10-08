@@ -154,7 +154,6 @@ MonoBehaviour:
   - {fileID: 6142863379355514123, guid: 4b4c7fbce2a5cca4a85cf901e75c46de, type: 3}
   - {fileID: 4045070327620806800, guid: 3e1031c9ff964c14aa9d5df54c51f2ce, type: 3}
   - {fileID: 8839563817765991025, guid: d1eb80595573a5c4d808d0e0a510144e, type: 3}
-  InstantiationTimer: 8
 --- !u!4 &757865292
 Transform:
   m_ObjectHideFlags: 0
@@ -317,7 +316,7 @@ PrefabInstance:
     - target: {fileID: 7549781440424151090, guid: df2d0e12126ac7749891e4352b455575,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.12
       objectReference: {fileID: 0}
     - target: {fileID: 7549781440424151090, guid: df2d0e12126ac7749891e4352b455575,
         type: 3}
@@ -367,6 +366,21 @@ PrefabInstance:
     - target: {fileID: 7549781440424151090, guid: df2d0e12126ac7749891e4352b455575,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549781440424151091, guid: df2d0e12126ac7749891e4352b455575,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549781440424151091, guid: df2d0e12126ac7749891e4352b455575,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549781440424151091, guid: df2d0e12126ac7749891e4352b455575,
+        type: 3}
+      propertyPath: m_AngularDrag
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7549781440424151103, guid: df2d0e12126ac7749891e4352b455575,

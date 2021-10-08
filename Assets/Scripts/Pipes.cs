@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pipes : MonoBehaviour
 {
-    float speed = 1f;
+    float speed = 2f;
     
     // Start is called before the first frame update
     void Start()
